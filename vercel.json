@@ -1,8 +1,0 @@
-{
-    "rewrites": [
-        {
-            "source": "/idiot",
-            "destination": "/idiot.html"
-        }
-    ]
-}

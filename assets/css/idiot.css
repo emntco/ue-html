@@ -1,1 +1,26 @@
-#wall{background:#111313 url(https://emnt.co/wp-content/uploads/2024/07/idiot.gif) no-repeat top;background-size:cover;height:972px;padding-top:20px}
+#wall{
+    background: #111313 url(https://nyc3.digitaloceanspaces.com/upperechelon.gg/assets/idiot.gif) no-repeat top;
+    background-size: cover;
+}
+
+.safety {
+    padding-top: 50px;
+}
+.safety a.btn {
+    display: flex;
+    justify-content: center;
+    width: 67%;
+    margin: 0 auto;
+}
+
+@media (max-width: 991.98px) {
+    #wall {
+        height: 560px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #wall {
+        height: 280px;
+    }
+}
