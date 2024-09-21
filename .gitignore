@@ -1,3 +1,37 @@
-
-# macOS
+# Common
+*.log
+*.sql
+*.sqlite
 .DS_Store
+Thumbs.db
+
+# Artifacts
+*.tmp
+*.bak
+*.swp
+*.zip
+*.tar.gz
+
+# Project
+.env
+
+# WordPress Core Files
+/*
+!.gitignore
+!wp-content/
+
+# WordPress Content
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/themes/
+
+# Themes
+wp-content/themes/*
+!wp-content/themes/salient-child/
+
+# Plugins
+wp-content/mu-plugins/*
+!wp-content/mu-plugins/fix-smartcrawl-advancedtools.php
+
+# Configurations
+wp-config.php
